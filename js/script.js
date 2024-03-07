@@ -1,3 +1,5 @@
+// SNACK 1
+
 const zucchine = [
   {
     nome: 'Milano',
@@ -58,6 +60,9 @@ for(let zucchina of zucchine){
 console.log(somma);
 
 
+
+
+// SNACK 2
 const zucchineDue = [
   {
     nome: 'Milano',
@@ -129,3 +134,11 @@ for(let zucchinaCorta of zucchineCorte){
 }
 console.log(sommaCorte);
 
+// SNACK 3
+
+
+function reverseWord(string){
+  return string.split('').reverse().join('');
+};
+
+console.log(reverseWord('zucchina'));
