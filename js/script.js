@@ -142,3 +142,17 @@ function reverseWord(string){
 };
 
 console.log(reverseWord('zucchina'));
+
+// SNACK 4
+
+const arrUno = [1, 2, 3];
+const arrDue = ['a', 'b', 'c'];
+
+const arrTre = [];
+
+for(let i = 0; i < arrUno.length; i++){
+  arrTre.push(arrUno[i]);
+  arrTre.push(arrDue[i]);
+}
+
+console.log(arrTre);
