@@ -173,12 +173,3 @@ function rangeNumber(min, max, arr){
 const numExtr = rangeNumber(primoNum, secondoNum, arrNum);
 console.log(numExtr);
 
-// function rangeNumber(min, max, arr){
-//   if(max < 0 || arr > min.length || max > arr){
-//     return[];
-//   }
-//   return arr.filter((element, index) => index >= min && index < max);
-// }
-
-// const numExtr = rangeNumber(primoNum, secondoNum, arrNum);
-// console.log(numExtr);
