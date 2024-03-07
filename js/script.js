@@ -156,3 +156,29 @@ for(let i = 0; i < arrUno.length; i++){
 }
 
 console.log(arrTre);
+
+// SNACK 5
+
+const primoNum = 2;
+const secondoNum = 5;
+const arrNum = [0, 1, 2, 3, 4, 5];
+
+function rangeNumber(min, max, arr){
+  if(max < 0){
+    return[];
+  }
+  return arr.filter((element, index) => index >= min && index < max);
+}
+
+const numExtr = rangeNumber(primoNum, secondoNum, arrNum);
+console.log(numExtr);
+
+// function rangeNumber(min, max, arr){
+//   if(max < 0 || arr > min.length || max > arr){
+//     return[];
+//   }
+//   return arr.filter((element, index) => index >= min && index < max);
+// }
+
+// const numExtr = rangeNumber(primoNum, secondoNum, arrNum);
+// console.log(numExtr);
